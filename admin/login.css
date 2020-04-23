@@ -1,0 +1,45 @@
+*
+{
+  font-family: calibri;
+}
+body
+{
+	background: #dcdcdc;
+}
+header
+{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+form
+{
+	background: grey;
+	width: 300px;
+	height: 200px;
+	padding: 20px 20px;
+	margin-top: 150px;
+	margin-left: 500px;
+}
+input
+{
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.submit
+{
+	background: #0033cc;
+	color: white;
+	border: 1px solid #0033cc;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.submit:hover
+{
+	background: #dcdcdc;
+	color: black;
+}

@@ -1,0 +1,38 @@
+*
+{
+	font-family: calibri;
+}
+.rest
+{
+	font-size: 20px;
+}
+
+.rest h1
+{
+	padding-left: 20px;
+text-align:left;
+font-weight:bold;
+}
+.rest h4
+{ 
+padding: 20px 20px;
+font-size: 22px;
+font-weight: normal;
+word-spacing: 3px;
+margin-top: -30px;
+}
+.rest h2
+{ 
+	padding-left: 20px;
+	padding-right: 20px;
+text-align:left;
+font-weight:bold;
+text-decoration:underline #fff; 
+}
+
+
+
+
+
+
+

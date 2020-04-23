@@ -1,0 +1,160 @@
+
+*
+{
+  font-family: calibri;
+}
+.fii
+{
+  background:#0033cc;
+}
+.fii li
+{
+  display: inline-block;
+  color: black;
+  padding-left: 20px;
+}
+.fii li a
+{
+  color:white;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.fii li a:hover
+{
+  color: black;
+  transition: 0.2s;
+}
+.sii
+{
+  background: #dcdcdc;
+  width: auto;
+  height: 90px;
+}
+.sii .nav
+{
+  float: right;
+  margin-top: -80px;
+}
+.sii .nav li
+{
+  display: inline-block;
+  color: black;
+  padding: 20px 10px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sii .nav li a
+{
+color:black;
+text-decoration: none;
+}
+.sii .nav li a:hover
+{
+  color: #0033cc;
+  transition: 0.2s;
+}
+.sii .logo img
+{
+ width: 200px;
+ height: 80px;
+}
+.validation h1
+{
+	padding-left: 80px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+.contact input
+{
+	margin-left: 310px;
+	width: 500px;
+	height: 40px;
+	border: 1px solid #0033cc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.contact select
+{
+	margin-left: 310px;
+	width: 500px;
+	height: 40px;
+	border: 1px solid #0033cc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.contact .form-controlsubmit
+{
+	background:#0033cc;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.contact .form-controlsubmit:hover
+{
+	background: white;
+	color: black;
+}
+.info
+{
+	font-size: 18px;
+}
+footer
+{
+	text-align: center;
+	font-size: 16px;
+	background: #0033cc;
+	margin-top: 20px;
+
+}
+.login
+{
+	background:url(images/login.jpg);
+    height: 100px;
+    background-size: cover;
+}
+.login h1
+{
+	padding-left: 40px;
+	padding-top: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

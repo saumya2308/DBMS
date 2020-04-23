@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+	<header>TOLL INFORMATION SYSTEM</header>
+
+<div class="aa">
+	<form method="POST" action="login.php">
+		<input type="text" name="name" placeholder="USERNAME"><br>
+		<input type="password" name="pass" placeholder="PASSWORD"><br>
+		<input type="submit" class="submit" value="SUBMIT">
+	</form>
+</div>
+</body>
+</html>
+<?php
+$name=filter_input(INPUT_POST,'name');
+$pass=filter_input(INPUT_POST,'pass');
+
+$dbname ="admin";
+$host="localhost";
+$username="root";
+$password="";
+$conn = new mysqli($host, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$ssf = "INSERT INTO admin (name,pass)
+VALUES ('$name','$pass')";
+
+if ($conn->query($ssf) === TRUE) {
+    echo "connected";
+    header('location:admin.php');
+
+} else {
+    echo
+}
+$conn->close();
+?>
+
